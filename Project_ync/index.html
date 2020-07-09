@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>부산광역시</title>
+
+  <!--JQuery 모바일 선언-->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <!--JQuery 모바일 선언 종료-->
+
+  <!--fotorama 선언-->
+  <!-- jQuery 1.8 or later, 33 KB -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Fotorama from CDNJS, 19 KB -->
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <!--fotorama 선언 종료-->
+</head>
+<body>
+
+  <!--모바일 페이지(메인) start-->
+  <div data-role="page" id="index_page" data-theme="b">
+
+    <!--메뉴 패널 start-->
+    <div data-role="panel" id="panel1" data-display="overlay" data-position="right" data-theme="b">
+      <ul data-role="listview">
+        <li data-icon="delete" style="text-align:center"><a href="#" data-rel="close">종료</a></li>
+        <li><a href="#busan_page">부산광역시 소개</a></li>
+        <li><a href="#sights1">관광지 소개</a></li>
+        <li><a href="#video_page">부산광역시 동영상</a></li>
+        <li><a href="#image_page">부산광역시 갤러리</a></li>
+      </ul>
+    </div>
+    <!--메뉴 패널 end-->
+
+    <!--모바일 페이지 헤더바 start-->
+    <div data-role="header" data-theme="b">
+      <a href="#index_page" data-icon="home">홈</a>
+      <h1>부산광역시 소개</h1>
+      <a href="#panel1" data-icon="bars" class="ui-btn-right" data-iconpos="notext">메뉴</a>
+    </div>
+    <!--모바일 페이지 헤더바 end-->
+
+    <!--모바일 페이지 컨텐츠 start-->
+    <div data-role="content" style="text-align:center">
+      <!--fotorama start-->
+      <div class="fotorama" data-autoplay="3000" >
+        <img src="1-1.jpg" width="100%" height="100px">
+        <img src="1-3.jpg" width="100%" height="100px">
+        <img src="1-4.jpg" width="100%" height="100px">
+        <img src="1-6.jpg" width="100%" height="100px">
+        <img src="1-8.jpg" width="100%" height="100px">
+        <img src="1-9.jpg" width="100%" height="100px">
+        <img src="1-10.jpg" width="100%" height="100px">
+      </div>
+      <!--fotorama end-->
+
+      <!--listview start-->
+      <ui data-role="listview" data-inset="true">
+        <li><a href="#busan_page">부산광역시 소개</a></li>
+        <li><a href="#sights1">관광지 소개</a></li>
+        <li><a href="#video_page">부산광역시 동영상</a></li>
+        <li><a href="#image_page">부산광역시 갤러리</a></li>
+        <li><a href="http://www.busan.go.kr/index" target="_blank">부산광역시 홈페이지 이동</a></li>
+      </ui>
+      <!--listview end-->
+    </div>
+    <!--모바일 페이지 컨텐츠 end-->
+
+    <!--모바일 페이지 푸터바 start-->
+    <div data-role="footer" data-fullscreen="true" data-theme="b">
+      <h4>ⓒ1905002_권오덕</h4>
+    </div>
+    <!--모바일 페이지 푸터바 end-->
+
+    </div>
+    <!--모바일 페이지(메인) end-->
+
+    <!--모바일 페이지(동영상) start-->
+    <div data-role="page" id="video_page" data-theme="b">
+
+      <!--메뉴 패널 start-->
+      <div data-role="panel" id="panel1" data-display="overlay" data-position="right" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete" style="text-align:center"><a href="#" data-rel="close">종료</a></li>
+          <li><a href="#busan_page">부산광역시 소개</a></li>
+          <li><a href="#sights1">관광지 소개</a></li>
+          <li><a href="#video_page">부산광역시 동영상</a></li>
+          <li><a href="#image_page">부산광역시 갤러리</a></li>
+        </ul>
+      </div>
+      <!--메뉴 패널 end-->
+
+      <!--모바일 페이지 헤더바 start-->
+      <div data-role="header" data-theme="b">
+        <a href="index.html" data-icon="home">홈</a>
+        <h1>부산광역시 동영상</h1>
+        <a href="#panel1" data-icon="bars" class="ui-btn-right" data-iconpos="notext">메뉴</a>
+      </div>
+      <!--모바일 페이지 헤더바 end-->
+
+      <!--모바일 페이지 컨텐츠 start-->
+      <div data-role="content">
+        <div class="ui-bar ui-bar-b">붓싼뉴스</div>
+        <li><iframe width="100%" height="250" src="https://www.youtube.com/embed/iIJZgv-2J4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li> <br>
+        <div class="ui-bar ui-bar-b">부산광역시 B공식채널</div>
+        <li><iframe width="100%" height="250" src="https://www.youtube.com/embed/XabxhPaSJKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li> <br>
+        <div class="ui-bar ui-bar-b">부산광역시 코로나19 상황보고(07월 08일)</div>
+        <li><iframe width="100%" height="250" src="https://www.youtube.com/embed/kznsNeQAmMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        <div class="ui-bar ui-bar-b">코로나19 Nope! 마을건강센터 Yeah!(부산광역시)</div>
+        <li><iframe width="100%" height="250" src="https://www.youtube.com/embed/_juH2COeHvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+      </div>
+      <!--모바일 페이지 컨텐츠 end-->
+
+      <!--모바일 페이지 푸터바 start-->
+      <div data-role="footer" data-fullscreen="true" data-theme="b">
+        <h4>ⓒ1905002_권오덕</h4>
+      </div>
+      <!--모바일 페이지 푸터바 end-->
+
+    </div>
+    <!--모바일 페이지(동영상) end-->
+
+    <div data-role="page" id="image_page" data-theme="b">
+
+      <!--메뉴 패널 start-->
+      <div data-role="panel" id="panel1" data-display="overlay" data-position="right" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete" style="text-align:center" data-theme="b"><a href="#" data-rel="close">종료</a></li>
+          <li><a href="#busan_page">부산광역시 소개</a></li>
+          <li><a href="#sights1">관광지 소개</a></li>
+          <li><a href="#video_page">부산광역시 동영상</a></li>
+          <li><a href="#image_page">부산광역시 갤러리</a></li>
+        </ul>
+      </div>
+      <!--메뉴 패널 end-->
+
+      <!--모바일 페이지 헤더바 start-->
+      <div data-role="header" data-theme="b">
+        <a href="#index_page" data-icon="home">홈</a>
+        <h1>부산 갤러리</h1>
+        <a href="#panel1" data-icon="bars" class="ui-btn-right" data-iconpos="notext">메뉴</a>
+      </div>
+      <!--모바일 페이지 헤더바 end-->
+
+      <!--모바일 페이지 컨텐츠 start-->
+      <div data-role="content">
+        <!--fotorama start-->
+        <div class="fotorama" data-autoplay="3000" >
+          <img src="1-1.jpg" width="100%" height="80px">
+          <img src="1-2.jpg" width="100%" height="80px">
+          <img src="1-3.jpg" width="100%" height="80px">
+          <img src="1-4.jpg" width="100%" height="80px">
+          <img src="1-5.jpg" width="100%" height="80px">
+          <img src="1-6.jpg" width="100%" height="80px">
+          <img src="1-7.jpg" width="100%" height="80px">
+          <img src="1-8.jpg" width="100%" height="80px">
+          <img src="1-9.jpg" width="100%" height="80px">
+          <img src="1-10.jpg" width="100%" height="80px">
+        </div>
+        <!--fotorama end-->
+      </div>
+      <!--모바일 페이지 컨텐츠 end-->
+
+      <!--모바일 페이지 푸터바 start-->
+      <div data-role="footer" data-fullscreen="true" data-theme="b">
+        <h4>ⓒ1905002_권오덕</h4>
+      </div>
+      <!--모바일 페이지 푸터바 end-->
+
+    </div>
+    <!--모바일 페이지(갤러리) end-->
+
+    <!--모바일 페이지(부산광역시 소개) start-->
+    <div data-role="page" id="busan_page" data-theme="b">
+
+      <!--메뉴 패널 start-->
+      <div data-role="panel" id="panel1" data-display="overlay" data-position="right" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete" style="text-align:center" data-theme="b"><a href="#" data-rel="close">종료</a></li>
+          <li><a href="#busan_page">부산광역시 소개</a></li>
+          <li><a href="#sights1">관광지 소개</a></li>
+          <li><a href="#video_page">부산광역시 동영상</a></li>
+          <li><a href="#image_page">부산광역시 갤러리</a></li>
+        </ul>
+      </div>
+      <!--메뉴 패널 end-->
+
+      <!--모바일 페이지 헤더바 start-->
+      <div data-role="header" data-theme="b">
+        <a href="index.html" data-icon="home">홈</a>
+        <h1>부산광역시 소개</h1>
+        <a href="#panel1" data-icon="bars" class="ui-btn-right" data-iconpos="notext">메뉴</a>
+      </div>
+      <!--모바일 페이지 헤더바 end-->
+
+      <!--모바일 페이지 컨텐츠 start-->
+      <div data-role="content" style="text-align:center" data-theme="b">
+
+        <!--fotorama start-->
+        <div class="fotorama" data-autoplay="3000" >
+          <img src="1-1.jpg" width="100%" height="100px">
+          <img src="1-3.jpg" width="100%" height="100px">
+          <img src="1-4.jpg" width="100%" height="100px">
+          <img src="1-6.jpg" width="100%" height="100px">
+          <img src="1-8.jpg" width="100%" height="100px">
+          <img src="1-9.jpg" width="100%" height="100px">
+          <img src="1-10.jpg" width="100%" height="100px">
+        </div>
+        <!--fotorama end-->
+
+        <!--소개 페이지 start-->
+        <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+          <div data-role="collapsible" style="text-align:left">
+            <h3>'부산'의 명칭 유래</h3>
+            <p>'부산'이란 이름이 언제부터 사용되었는지 정확한 시기는 알 수 없다. 하지만 1402년(태종2) 1월 28일
+              『태종실록』에 '부산'이라는 명칭이 처음으로 보인다. ···(생략) 이후의 기록으로는 '부산포'로 기록하고 있다.
+              따라서 부산의 지명변천을 가장 잘 나타내고 있는 『동국여지승람(1481)』이 완성된 15세기 말엽부터는 부산이라는
+              지명이 일반화 된 것으로 추정된다. <br>
+            </p>
+            <a href="http://www.busan.go.kr/bhnorigin01" data-icon="arrow-r" target="_blank" data-role="button">더보기(홈페이지 이동)</a>
+          </div>
+
+          <div data-role="collapsible" style="text-align:left">
+            <h3>'부산'의 시대별 역사</h3>
+            <p>
+              <div data-role="collapsible">
+                <h3>일제감정기</h3>
+                <p>조선을 강점한 일제는 1910년 9월 30일『조선총독부관제』,『조선총독부 지방관제』를
+                  반포하여 10월 1일 이를 실시하였다. 당시 지방제도는 전국을 13도, 12부, 317군을
+                  두고 부에는 부윤, 군에는 군수를 임명하였다. 부산이사청을 폐지하고,
+                  부산부를 설치하여 동래부 사무를 인계하고 관할하였다.
+                  그후 1914년 4월 군, 면의 통합에 따라 옛 동래부의 일부와 기장군을 합하여 동래군으로 재편하여
+                  경상남도에 속하게 하여 부산부와 구별하는 행정구역이 되었다.</p>
+              </div>
+
+              <div data-role="collapsible">
+                <h3>광복이후 부산시</h3>
+                <p>1945년 8월 15일 광복을 맞이한 부산은 여러 가지 산적한 현안을 안고 있었다.
+                  부산에 거주하는 일본인의 철수, 해외동포의 귀국, 일제잔재의 청산 등이 그것이다.
+                  그러나 이러한 문제를 해결하기도 전에 남과 북을 미소가 분할 점령하여 남한은
+                  미군정의 실시로 부산에 미군이 주둔하여 군정을 실시하였다.
+                  그러나 미군정 당국의 행정체계는 일제강점기 행정체계를 그대로 계승하였다.
+                  이후 1947년 10월에는 일본식 동명을 우리말로 바꾸어 동명의 기본체계를 갖추게 되었다.</p>
+              </div>
+
+              <div data-role="collapsible">
+                <h3>부산직할시</h3>
+                <p>1963년 1월 1일을 기하여 정부 직할시 승격으로, 제3차 행정구역이 확장되어 동래군의
+                  구포읍과 사상, 북면, 기장읍 송정리를 편입하여, 6구(중구, 서구, 동구, 영도구, 부산진구, 동래구),
+                  7출장소(대연, 사상, 사하, 북면, 수영, 구포, 해운대), 136동으로 편제되었다.
+                  이후 부산은 급격한 발전을 거듭하여 1960년 중반 부산의 인구는 광복 당시보다
+                  무려 5배 증가한 150만명에 시역이 373.23㎢로 확장됨으로써 대도시 특유의 기능체제를 갖추게 되었다.</p>
+              </div>
+
+              <div data-role="collapsible">
+                <h3>부산광역시</h3>
+                <p>1995년 1월 1일「지방자치법」개정으로 부산직할시에서 부산광역시로 개칭되었고,
+                  제6차 행정구역 확장으로 경상남도 양산군 동부 5개 읍면(기장읍·장안읍·일광면·정관면·철마면)을 편입시켜
+                   기장군에 편제하였고, 진해시 웅동2동 등 일부가 강서구 녹산동에 편입되면서 면적은 749.17㎢으로 확장되었다.
+                   3월 1일에는 기존의 동래구를 분구하여 연제구를, 남구를 분구하여 수영구를,
+                    북구를 분구하여 사상구를 신설하여 16개 구(군)이 되었다.</p>
+              </div>
+
+              <a href="http://www.busan.go.kr/historymetro" data-icon="arrow-r" target="_blank" data-role="button">더보기(부산시청 이동)</a>
+            </p>
+          </div>
+
+          <div data-role="collapsible">
+            <h3>'부산광역시' 연혁</h3>
+              <a href="http://www.busan.go.kr/bhhistory" data-icon="arrow-r" target="_blank" data-role="button">더보기(부산시청 이동)</a>
+          </div>
+        </div>
+        <!--소개 페이지 end-->
+
+      </div>
+      <!--모바일 페이지 컨텐츠 end-->
+
+      <!--모바일 페이지 푸터바 start-->
+      <div data-role="footer" data-fullscreen="true" data-theme="b">
+        <h4>ⓒ1905002_권오덕</h4>
+      </div>
+      <!--모바일 페이지 푸터바 end-->
+
+    </div>
+    <!--모바일 페이지(부산광역시 소개) end-->
+
+    <!--모바일 페이지(부산진구) start-->
+    <div data-role="page" id="sights1" data-theme="b">
+
+      <!--메뉴 패널 start-->
+      <div data-role="panel" id="panel1" data-display="overlay" data-position="right" data-theme="b">
+        <ul data-role="listview">
+          <li data-icon="delete" style="text-align:center" data-theme="b"><a href="#" data-rel="close">종료</a></li>
+          <li><a href="#busan_page">부산광역시 소개</a></li>
+          <li><a href="#sights1">관광지 소개</a></li>
+          <li><a href="#video_page">부산광역시 동영상</a></li>
+          <li><a href="#image_page">부산광역시 갤러리</a></li>
+        </ul>
+      </div>
+      <!--메뉴 패널 end-->
+
+      <!--모바일 페이지 헤더바 start-->
+      <div data-role="header" data-theme="b">
+        <a href="index.html" data-icon="home">홈</a>
+        <h1>관광지(부산진구)</h1>
+        <a href="#panel1" data-icon="bars" class="ui-btn-right" data-iconpos="notext">메뉴</a>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#sights1" class="ui-btn-active">부산진구</a></li>
+            <li><a href="#sights2">수영구</a></li>
+            <li><a href="#sights3">해운대구</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--모바일 페이지 헤더바 end-->
+
+      <!--모바일 페이지 컨텐츠 start-->
+      <div data-role="content" style="text-align:center">
+        <!--fotorama start-->
+        <div class="fotorama" data-autoplay="3000" >
+          <img src="3-1.jpg" width="100%" height="80px">
+          <img src="3-2.jpg" width="100%" height="80px">
+          <img src="3-3.jpg" width="100%" height="80px">
+          <img src="3-4.jpg" width="100%" height="80px">
+          <img src="3-5.jpg" width="100%" height="80px">
+        </div>
+        <!--fotorama end-->
+
+        <!--listview start-->
+        <div class="ui-bar ui-bar-b">부산진구(5가지)</div>
+        <div class="ui-boty ui-body-b">
+          <h3>부산시민공원</h3>
+          <p>[부산광역시 부산진구 시민공원로 73] <br>
+          1945년부터 미군부대인 하야리아 캠프가 있었던 자리이며, 2006년 하야리아 캠프 부지가 폐쇄하고 이후 환경조사와
+          공원설계를 마무리하여 2011년 08월, 부산시민공원 조성 기공식을 개최하였음.
+          </p>
+        </div>
+
+        <div class="ui-boty ui-body-b">
+          <h3>성지곡수원지</h3>
+          <p>[부산광역시 부산진구 초읍동] <br>
+          2008년 7월 03일 등록문화재 제376호로 지정되었고, 부산 지역에 식수를 공급하기 위하여 1909년에 시설한
+          국내 최초의 콘크리트 중력심 댐이자 근대적 상수도 시설이다.
+          </p>
+        </div>
+
+        <div class="ui-boty ui-body-b">
+          <h3>송상현 광장</h3>
+          <p>[부산광역시 부산진구] <br>
+          대한민국 최대의 도심 광장(공원)이며, 송상현 광장은 '송상현'이라는 인물의 이름을 그대로 따서 만들어진 광장이다.
+          </p>
+        </div>
+
+        <div class="ui-boty ui-body-b">
+          <h3>황령산</h3>
+          <p>[부산광역시 연제구 연산5동] <br>
+          부산광역시 남구, 수영구, 연제구, 부산진구에 걸쳐져 있는 산으로써, 금련산맥에서 두 번째로 높은 산이다.
+          </p>
+        </div>
+
+        <div class="ui-boty ui-body-b">
+          <h3>백양산</h3>
+          <p>[부산광역시 부산진구] <br>
+          부산 부산진구와 북구 사이에 있는 산. 높이 642m이다.
+          </p>
+        </div>
+
+        <a href="https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC%20%EA%B4%80%EA%B4%91%EC%A7%80?c=14365463.5726652,4186420.8029327,14,0,0,0,dh" target="_blank" data-role="button" data-theme="b" data-icon="arrow-r">더보기(네이버 지도)</a>
+        <!--listview end-->
+      </div>
+      <!--모바일 페이지 컨텐츠 end-->
+
+      <!--모바일 페이지 푸터바 start-->
+      <div data-role="footer" data-fullscreen="true" data-theme="b">
+        <h4>ⓒ1905002_권오덕</h4>
+      </div>
+      <!--모바일 페이지 푸터바 end-->
+
+      </div>
+      <!--모바일 페이지(부산진구) end-->
+
+      <!--모바일 페이지(수영구) start-->
+      <div data-role="page" id="sights2" data-theme="b">
+
+        <!--메뉴 패널 start-->
+        <div data-role="panel" id="panel1" data-display="overlay" data-position="right" data-theme="b">
+          <ul data-role="listview">
+            <li data-icon="delete" style="text-align:center" data-theme="b"><a href="#" data-rel="close">종료</a></li>
+            <li><a href="#busan_page">부산광역시 소개</a></li>
+            <li><a href="#sights1">관광지 소개</a></li>
+            <li><a href="#video_page">부산광역시 동영상</a></li>
+            <li><a href="#image_page">부산광역시 갤러리</a></li>
+          </ul>
+        </div>
+        <!--메뉴 패널 end-->
+
+        <!--모바일 페이지 헤더바 start-->
+        <div data-role="header" data-theme="b">
+          <a href="index.html" data-icon="home">홈</a>
+          <h1>관광지(수영구)</h1>
+          <a href="#panel1" data-icon="bars" class="ui-btn-right" data-iconpos="notext">메뉴</a>
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#sights1">부산진구</a></li>
+              <li><a href="#sights2" class="ui-btn-active">수영구</a></li>
+              <li><a href="#sights3">해운대구</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--모바일 페이지 헤더바 end-->
+
+        <!--모바일 페이지 컨텐츠 start-->
+        <div data-role="content" style="text-align:center">
+          <!--fotorama start-->
+          <div class="fotorama" data-autoplay="3000" >
+            <img src="4-1.jpg" width="100%" height="80px">
+            <img src="4-2.jpg" width="100%" height="80px">
+            <img src="4-3.jpg" width="100%" height="80px">
+            <img src="4-5.jpg" width="100%" height="80px">
+          </div>
+          <!--fotorama end-->
+
+          <!--listview start-->
+          <div class="ui-bar ui-bar-b">수영구(4가지)</div>
+          <div class="ui-boty ui-body-b">
+            <h3>광안리 해수욕장</h3>
+            <p>[부산광역시 수영구 광안해변로 219] <br>
+            해운대 해수욕장의 서쪽에 위치하고 있으며, 질 좋은 모래사장이 있고 지속적인 수질 정화를 실시하여 인근의 수영강에
+            다시 고기가 살 수 있을 정도로 깨끗한 수질을 자랑하며, 특히 젊은이들이 즐겨 찾는 명소이다.
+            </p>
+          </div>
+
+          <div class="ui-boty ui-body-b">
+            <h3>민락수변공원</h3>
+            <p>[부산광역시 수영구 민락수변로 129 수변공원] <br>
+            바다에 접한 국내 최초의 수변공원으로 해운대와 광안리 중간 지점에 위치하고 있다.
+            이곳은 원래 바다였으나, 지역개발 촉진과 지역주민의 편의를 위해 공원으로 조성되었다.
+            </p>
+          </div>
+
+          <div class="ui-boty ui-body-b">
+            <h3>수영사적공원</h3>
+            <p>[부산광역시 수영구 수영동] <br>
+            1972년 6월 26일 부산광역시기념물 제8호로 지정되었다.
+            </p>
+          </div>
+
+          <div class="ui-boty ui-body-b">
+            <h3>갈맷길 코스</h3>
+            <p>[부산광역시 수영구] <br>
+            민락교 ↔ 오륙도유람선선착장
+            </p>
+          </div>
+
+          <a href="https://map.naver.com/v5/search/%EC%88%98%EC%98%81%EA%B5%AC%20%EA%B4%80%EA%B4%91%EC%A7%80?c=14371983.7505433,4185544.9043306,13,0,0,0,dh" target="_blank" data-role="button" data-theme="b" data-icon="arrow-r">더보기(네이버 지도)</a>
+          <!--listview end-->
+        </div>
+        <!--모바일 페이지 컨텐츠 end-->
+
+        <!--모바일 페이지 푸터바 start-->
+        <div data-role="footer" data-fullscreen="true" data-theme="b">
+          <h4>ⓒ1905002_권오덕</h4>
+        </div>
+        <!--모바일 페이지 푸터바 end-->
+
+        </div>
+        <!--모바일 페이지(수영구) end-->
+
+        <!--모바일 페이지(해운대구) start-->
+        <div data-role="page" id="sights3" data-theme="b">
+
+          <!--메뉴 패널 start-->
+          <div data-role="panel" id="panel1" data-display="overlay" data-position="right" data-theme="b">
+            <ul data-role="listview">
+              <li data-icon="delete" style="text-align:center" data-theme="b"><a href="#" data-rel="close">종료</a></li>
+              <li><a href="#busan_page">부산광역시 소개</a></li>
+              <li><a href="#sights1">관광지 소개</a></li>
+              <li><a href="#video_page">부산광역시 동영상</a></li>
+              <li><a href="#image_page">부산광역시 갤러리</a></li>
+            </ul>
+          </div>
+          <!--메뉴 패널 end-->
+
+          <!--모바일 페이지 헤더바 start-->
+          <div data-role="header" data-theme="b">
+            <a href="index.html" data-icon="home">홈</a>
+            <h1>관광지(해운대구)</h1>
+            <a href="#panel1" data-icon="bars" class="ui-btn-right" data-iconpos="notext">메뉴</a>
+            <div data-role="navbar">
+              <ul>
+                <li><a href="sights.html">부산진구</a></li>
+                <li><a href="#sights2">수영구</a></li>
+                <li><a href="#sights3" class="ui-btn-active">해운대구</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--모바일 페이지 헤더바 end-->
+
+          <!--모바일 페이지 컨텐츠 start-->
+          <div data-role="content" style="text-align:center">
+            <!--fotorama start-->
+            <div class="fotorama" data-autoplay="3000" >
+              <img src="5-1.jpg" width="100%" height="80px">
+              <img src="5-2.jpg" width="100%" height="80px">
+              <img src="5-3.jpg" width="100%" height="80px">
+              <img src="5-4.jpg" width="100%" height="80px">
+            </div>
+            <!--fotorama end-->
+
+            <!--listview start-->
+            <div class="ui-bar ui-bar-b">해운대구(4가지)</div>
+            <div class="ui-boty ui-body-b">
+              <h3>해운대 해수욕장</h3>
+              <p>[부산광역시 해운대구 우동] <br>
+              주변의 빼어난 경관과 어우러져 전국 제일의 해수욕장으로 각광받고 있다.
+              </p>
+            </div>
+
+            <div class="ui-boty ui-body-b">
+              <h3>해운대 달맞이길</h3>
+              <p>[부산광역시 해운대구 달맞이길 190] <br>
+              부산에서 가장 유명한 드라이브 코스는 부산 해운대구 동쪽 바닷가에 있는 동백섬을 지칭하지만,
+              오늘날에는 '달맞이길'이라 불리는 해안선 일대와 언덕을 포함한 곳을 말한다.
+              </p>
+            </div>
+
+            <div class="ui-boty ui-body-b">
+              <h3>동백섬</h3>
+              <p>[부산광역시 해운대구 우동 710-1] <br>
+              부산 해운대 옆 동백섬의 동백공원에는 절정기를 살짝 넘긴 동백꽃이 산책로를 뒤 덮고 있다.
+              </p>
+            </div>
+
+            <div class="ui-boty ui-body-b">
+              <h3>장산</h3>
+              <p>[부산광역시 해운대구 북부] <br>
+              부산광역시 해운대구 북부에 있는 산, 높이 634m이다.
+              </p>
+            </div>
+
+            <a href="https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EA%B5%AC%20%EA%B4%80%EA%B4%91%EC%A7%80?c=14376210.8461121,4185181.1051370,14,0,0,0,dh" data-role="button" data-theme="b" data-icon="arrow-r" target="_blank">더보기(네이버 지도)</a>
+            <!--listview end-->
+          </div>
+          <!--모바일 페이지 컨텐츠 end-->
+
+          <!--모바일 페이지 푸터바 start-->
+          <div data-role="footer" data-fullscreen="true" data-theme="b">
+            <h4>ⓒ1905002_권오덕</h4>
+          </div>
+          <!--모바일 페이지 푸터바 end-->
+
+          </div>
+          <!--모바일 페이지(해운대구) end-->
+</body>
+</html>
